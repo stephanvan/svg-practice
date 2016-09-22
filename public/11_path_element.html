@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>SVG's Handbook</title>
+    <!-- build:css assets/css/main.css -->
+    <link rel="stylesheet" href="../assets/css/main.css" />
+    <!-- endbuild -->
+    <!-- build:css assets/css/libs.css -->
+    <link rel="stylesheet" href="../assets/css/libs.css" />
+    <!-- endbuild -->
+</head>
+
+<body>
+    <div class="container">
+        <h2>path element</h4>
+        <span>Reference link: </span><a href="http://tutorials.jenkov.com/svg/path-element.html">http://tutorials.jenkov.com/svg/path-element.html</a>
+
+        <br>
+        <!-- Path Example -->
+        <svg xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink">
+
+            <path d="M50,50
+             A30,30 0 0,1 35,20
+             L100,100
+             M110,110
+             L100,0"
+          style="stroke:#660000; fill:none;"/>    
+
+        </svg>
+        <!-- Setting and Moving the Pen -->
+        <br>
+        <svg xmlns="http://www.w3.org/2000/svg"
+             xmlns:xlink="http://www.w3.org/1999/xlink">
+
+            <path d="M50,50"
+          style="stroke:#660000; fill:none;"/>
+        </svg>
+
+        <br>
+        <!-- Lines -->
+        <svg height="150">
+          <path d="M50,50
+             L100,100"
+          style="stroke:#660000; fill:none;"/>
+        </svg>
+        <br>
+        <!-- Arcs -->
+        <svg height="150">
+            <path d="M50,50
+             A30,50 0 0,1 100,100"
+          style="stroke:#660000; fill:none;"/>
+        </svg>
+        <br>
+        <svg height="150">
+            <path d="M40,20  A30,30 0 0,0 70,70"
+                style="stroke: #cccc00; stroke-width:2; fill:none;"/>
+
+            <path d="M40,20  A30,30 0 1,0 70,70"
+                style="stroke: #ff0000; stroke-width:2; fill:none;"/>
+
+            <path d="M40,20  A30,30 0 1,1 70,70"
+                style="stroke: #00ff00; stroke-width:2; fill:none;"/>
+
+            <path d="M40,20  A30,30 0 0,1 70,70"
+                style="stroke: #0000ff; stroke-width:2; fill:none;"/>
+        <br>
+        <!-- Quadratic Bezier Curves -->
+        <svg height="150">
+            <path d="M50,50 Q50,100 100,100" 
+                  style="stroke: #006666; fill:none;"/> 
+        </svg>
+        <br>
+        <!-- Cubic Bezier Curves -->
+        <svg height="150">
+            <path d="M50,50 C75,80 125,20 150,50"
+      style="stroke: #006666; fill:none;"/> 
+        </svg>
+        <br>
+        <!-- Closing the Path -->
+        <svg height="150">
+            <<path d="M50,50 L100,50 L100,100 Z"
+    style="stroke: #006666; fill:none;"/>
+        </svg>
+
+        <br>
+        <!-- Combining Commands -->
+        <svg height="150">
+            <path d="M100,100
+                     L150,100
+                     a50,25 0 0,0 150,100
+                     q50,-50 70,-170
+                     Z"
+                  style="stroke: #006666; fill: none;"/>
+        </svg>
+        <br>
+        <!-- Filling Paths -->
+        <svg height="150">
+            <path d="M100,100 L150,100 L150,150  Z"
+                  style="stroke: #0000cc;
+                         stroke-width: 2px;
+                         fill  : #ccccff;"/>
+        </svg>
+        <br>
+        <!-- Notational Shortcuts -->
+        <svg height="150">
+            <path d="M10,10   l100,0  0,50  -100,0  0,-50"
+      style="stroke: #000000; fill:none;" />
+        </svg>
+    </div>
+
+  <!-- build:js assets/js/libs.js -->
+  <script src="../assets/js/libs.js"></script>
+  <!-- endbuild -->
+  <!-- build:js assets/js/main.js -->
+  <script src="../assets/js/main.js"></script>
+  <!-- endbuild -->
+</body>
+
+</html>

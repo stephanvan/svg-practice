@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>SVG's Handbook</title>
+    <!-- build:css assets/css/main.css -->
+    <link rel="stylesheet" href="../assets/css/main.css" />
+    <!-- endbuild -->
+    <!-- build:css assets/css/libs.css -->
+    <link rel="stylesheet" href="../assets/css/libs.css" />
+    <!-- endbuild -->
+</head>
+
+<body>
+    <div class="container">
+        <h2>svg element</h4>
+        <span>Reference link: </span><a href="http://tutorials.jenkov.com/svg/svg-element.html">http://tutorials.jenkov.com/svg/svg-element.html</a>
+        <br>
+        <p>The SVG <g> element is used to group SVG shapes together. Once grouped you can transform the whole group of shapes as if it was a single shape. This is an advantage compared to a nested <svg> element which cannot be the target of transformation by itself.</p>
+        <p>You can also style the grouped elements, and reuse them as if they were a single element.</p>
+        </p>
+        <br>
+        <svg xmln="http://www.w3.org/2000/svg" xmls:xlink="http://www.w3.org/1999/slink">
+          <g>
+            <line x1="10" y1="10" x2="85" y2="10" style="stroke:#006600;"/>
+            <rect x="10" y="20" height="100" width="75" style="stroke: #006600;file:#006600"/>
+            <text x="10" y="140" style="stroke:#006600;fill:#006600">Text grouped with shaped</text>
+          </g>
+        </svg>
+        
+    </div>
+
+  <!-- build:js assets/js/libs.js -->
+  <script src="../assets/js/libs.js"></script>
+  <!-- endbuild -->
+  <!-- build:js assets/js/main.js -->
+  <script src="../assets/js/main.js"></script>
+  <!-- endbuild -->
+</body>
+
+</html>

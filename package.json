@@ -1,0 +1,41 @@
+{
+  "name": "svg-practice",
+  "version": "0.0.1",
+  "description": "svg practice",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stephanvan/svg-practice.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "body-parser": "^1.15.0",
+    "browser-sync": "~2.9.11",
+    "browserify": "~2.x.x",
+    "chai": "^3.5.0",
+    "connect": "^3.4.1",
+    "del": "~2.0.2",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-csslint": "~0.2.0",
+    "gulp-imagemin": "~2.2.1",
+    "gulp-inject": "~3.0.0",
+    "gulp-jshint": "~1.11.2",
+    "gulp-minify-css": "~1.2.1",
+    "gulp-notify": "~2.2.0",
+    "gulp-replace": "~0.5.4",
+    "gulp-sass": "~2.0.4",
+    "gulp-sass-lint": "^1.1.1",
+    "gulp-uglify": "~1.4.2",
+    "gulp-usemin": "~0.3.19",
+    "jshint-stylish": "~2.0.1",
+    "require-dir": "~0.3.0",
+    "run-sequence": "~1.1.4",
+    "uglify-js": "~1.2.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@stephanvan1111",
+  "license": "MIT"
+}
