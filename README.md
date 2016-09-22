@@ -1,5 +1,4 @@
-# Gulp-Sass-Boilerplate
-Gulp-Sass-Boilerplate uses gulp, browserSync, Sass, Bootstrap
+# SVG practice
 
 # How to use
 1. npm install
